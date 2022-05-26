@@ -1,0 +1,2 @@
+# RentAParty
+Organização do projeto.
