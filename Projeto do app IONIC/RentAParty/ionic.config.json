@@ -1,7 +1,0 @@
-{
-  "name": "RentAParty",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
