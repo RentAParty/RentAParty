@@ -1,20 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="corBackground">
+    <ion-img src="../../assets/RAP.png" id="backgroundimg"></ion-img>
+ <div class="ion-text-center" style="margin-top: 50px;">
+        <ion-text id="texto" >RENT A PARTY</ion-text>
+    </div>
+    <div class="botao">
+        <ion-button size="large" color="dark" mode="ios" class="tamanho" (click)="nextpage(1)">Login</ion-button>
+    </div>
+    <div class="botao2">
+        <ion-button size="large" color="dark" mode="ios" class="tamanho" (click)="nextpage(2)">Cadastre-se</ion-button>
+    </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
 </ion-content>
