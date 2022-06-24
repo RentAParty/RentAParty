@@ -1,0 +1,19 @@
+#posicao {
+    position: relative;
+    top: 15vh;
+}
+
+.tamanho {
+    display: flex;
+}
+
+#estilo {
+    border-radius:50px;
+ box-shadow:   
+    0 0 7px #f86a6a,
+    0 0 10px #ff6b99;
+    
+    
+    transition: all 200ms ease-out;  
+
+}

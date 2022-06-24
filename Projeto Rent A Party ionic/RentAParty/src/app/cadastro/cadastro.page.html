@@ -1,23 +1,51 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Cadastre-se</ion-title>
-  </ion-toolbar>
-</ion-header>
-<ion-content>
+<ion-content [fullscreen]="true" class="corBackground">
   <ion-img src="../../assets/RAP.png" class="backgroundimg"></ion-img>
-  <ion-item>
-    <ion-label position="floating">Insira seu e-mail para o cadastro: </ion-label>
-    <ion-textarea></ion-textarea>
-  </ion-item>
-  <ion-item>
-    <ion-label position="floating">Crie sua senha: </ion-label>
-    <ion-textarea></ion-textarea>
-  </ion-item>
-  <ion-item>
-    <ion-label position="floating">Confirme sua senha: </ion-label>
-    <ion-textarea></ion-textarea>
-  </ion-item>
-  <div class="botao">
-    <ion-button color="primary" size="large" mode="ios" class="tamanho" position="middle" routerLink="/home">Registrar</ion-button>
+  <div>
+    <ion-row>
+      <ion-col>
+        <ion-button fill="outline" color="light" shape="round" size="medium" mode="ios">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
   </div>
+  <div class="ion-text-center" style="margin-top: 50px;">
+    <ion-text class="texto">LOGIN</ion-text>
+  </div>
+  <ion-grid id="posicao">
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Insira o seu e-mail:
+          </ion-label>
+          <ion-input type="text" required color="light" style=" border-bottom: 1px solid white;"></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Insira sua senha:
+          </ion-label>
+          <ion-input type="text" required color="light" style=" border-bottom: 1px solid white;"></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Comfirme sua senha:
+          </ion-label>
+          <ion-input type="text" required color="light" style=" border-bottom: 1px solid white;"></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button size="large" shape="round" color="light" fill="outline" mode="ios" class="tamanho" id="estilo">
+          Registrar</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
