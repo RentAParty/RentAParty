@@ -1,21 +1,28 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Login</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="corBackground">
+  <ion-img src="../../assets/RAP.png" class="backgroundimg"></ion-img>
 
-<ion-content>
-
-  <ion-item>
-    <ion-label position="floating" color="dark">Insira seu e-mail para o login: </ion-label>
-    <ion-textarea></ion-textarea>
-  </ion-item>  
-  <ion-item>
-    <ion-label position="floating">Insira sua senha: </ion-label>
-    <ion-textarea></ion-textarea>
-  </ion-item> 
-  <div class="botao">
-  <ion-button color="primary" size="large" mode="ios" class="tamanho" position="middle">Login</ion-button>
+  <div class="ion-text-center" style="margin-top: 50px;">
+    <ion-text class="texto">LOGIN</ion-text>
   </div>
+
+  <ion-grid id="posicao">
+    <ion-row>
+      <ion-col>
+        <ion-label position="floating" color="light">Insira seu e-mail para o login:</ion-label>
+        <ion-input type="text" required color="light"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label position="floating" color="light">Insira sua senha:</ion-label>
+        <ion-input type="text" required color="light"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button size="large" color="dark" mode="ios" class="tamanho">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
