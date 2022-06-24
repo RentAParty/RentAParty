@@ -9,15 +9,17 @@ import { Router } from '@angular/router';
 
 export class HomePage {
 
-  constructor(private route: Router) {}
+  constructor(private route: Router) { }
 
 
-nextpage(controle) {
+  nextpage(controle: number) {
 
-  if (controle==1) {
-  this.route.navigate(['/login']);
-}else{
-  this.route.navigate(['/cadastro'])
-}
-}
+    switch (controle) {
+      case 1:
+        this.route.navigate(['./login']);
+        break;
+      case 2:
+        this.route.navigate(['./cadastro'])
+    }
+  }
 }
