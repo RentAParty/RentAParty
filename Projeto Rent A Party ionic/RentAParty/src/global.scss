@@ -26,8 +26,9 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 
-#corBackground{
---ion-background-color:black;
+
+.corBackground{
+--ion-background-color:rgb(0, 0, 0);
 }
 
 #backgroundimg{
