@@ -6,7 +6,7 @@
 - ### **Mateus Araujo de Paula** - *mateusaraujodepaula@edu.unifil.br* - coordenador
 - ### **Fernando Galdino Santana Junior** - *fernando.junior@edu.unifil.br* - desenvolvedor front-end
 - ### **Moisés Gabriel de Caris** - *moises.caris@edu.unifil.br* - desenvolvedor full-stack
-- ### **Gustavo Seiti Miyabe** - *gustavo.miyabe@edu.unifil.br*
+- ### **Gustavo Seiti Miyabe** - *gustavo.miyabe@edu.unifil.br* - desenvolvedor front-end
 
 
 ### Este github está integrado ao discord privado, todas as atualizações são enviadas e notificadas em um chat.
