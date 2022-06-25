@@ -6,7 +6,7 @@ Github do projeto RENT A PARTY, realizado por:
 - ### **Fernando Galdino Santana Junior** - *fernando.junior@edu.unifil.br*
 - ### **Moisés Gabriel de Caris** - *moises.caris@edu.unifil.br*
 - ### **Gustavo Seiti Miyabe** - *gustavo.miyabe@edu.unifil.br*
-- ### **Mateus Araujo de Paula** - *mateusaraujodepaula@edu.unifil.br* - Coordenador
+- ### **Mateus Araujo de Paula** - *mateusaraujodepaula@edu.unifil.br* - coordenador
 
 Este github está integrado ao discord privado, todas as atualizações são enviadas e notificadas em um chat.
 
