@@ -11,7 +11,7 @@ Github do projeto RENT A PARTY, realizado por:
 Este github está integrado ao discord privado, todas as atualizações são enviadas e notificadas em um chat.
 
 O uso deste github está exclusivamente reservado as pessoas citadas acima.
-Para dar o merge, é necessário da aprovação do <sub>gerente do projeto</sub> ou do <sub>coordenador</sub>.
+Para dar o merge, é necessário da aprovação do <u>gerente do projeto</u> ou do <u>coordenador</u>.
 
 Este github está organizado por pastas com base nas mudanças realizadas ao longo do projeto,
 com a documentação, códigos, aplicativo, protótipo e atividades.
