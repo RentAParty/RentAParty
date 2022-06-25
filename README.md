@@ -10,11 +10,11 @@
 
 ### Este github está integrado ao discord privado, todas as atualizações são enviadas e notificadas em um chat.
 
-### O uso deste github está exclusivamente reservado as pessoas citadas acima.
-### Para dar o merge, é necessário da aprovação do <ins>gerente do projeto</ins> ou do <ins>coordenador</ins>.
+O uso deste github está exclusivamente reservado as pessoas citadas acima.
+Para dar o merge, é necessário da aprovação do <ins>gerente do projeto</ins> ou do <ins>coordenador</ins>.
 
-### Este github está organizado por pastas com base nas mudanças realizadas ao longo do projeto,
-### com a documentação, códigos, aplicativo, protótipo e atividades.
+Este github está organizado por pastas com base nas mudanças realizadas ao longo do projeto,
+com a documentação, códigos, aplicativo, protótipo e atividades.
 
 # **Site do projeto:** 
 https://sites.google.com/edu.unifil.br/rentaparty/in%C3%ADcio
