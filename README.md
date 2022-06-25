@@ -4,7 +4,7 @@
 
 - ### **Matheus Vinícius Pires da Silva Garvão** - *matheusgarvao@edu.unifil.br* - gerente do projeto
 - ### **Mateus Araujo de Paula** - *mateusaraujodepaula@edu.unifil.br* - coordenador
-- ### **Fernando Galdino Santana Junior** - *fernando.junior@edu.unifil.br*
+- ### **Fernando Galdino Santana Junior** - *fernando.junior@edu.unifil.br* - desenvolvedor front-end
 - ### **Moisés Gabriel de Caris** - *moises.caris@edu.unifil.br*
 - ### **Gustavo Seiti Miyabe** - *gustavo.miyabe@edu.unifil.br*
 
