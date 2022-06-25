@@ -11,11 +11,13 @@ Github do projeto RENT A PARTY, realizado por:
 Este github está integrado ao discord privado, todas as atualizações são enviadas e notificadas em um chat.
 
 O uso deste github está exclusivamente reservado as pessoas citadas acima.
-Para dar o merge, é necessário da aprovação do <u>gerente do projeto</u> ou do <u>coordenador</u>.
+Para dar o merge, é necessário da aprovação do <ins>gerente do projeto</ins> ou do <ins>coordenador</ins>.
 
 Este github está organizado por pastas com base nas mudanças realizadas ao longo do projeto,
 com a documentação, códigos, aplicativo, protótipo e atividades.
 
-# **Site do projeto:** https://sites.google.com/edu.unifil.br/rentaparty/in%C3%ADcio
+# **Site do projeto:** 
+https://sites.google.com/edu.unifil.br/rentaparty/in%C3%ADcio
 
-# **Confluence:** https://rent-a-party.atlassian.net/wiki/spaces/RAP/overview
+# **Confluence:** 
+https://rent-a-party.atlassian.net/wiki/spaces/RAP/overview
