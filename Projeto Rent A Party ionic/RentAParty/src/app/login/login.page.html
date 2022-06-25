@@ -9,24 +9,45 @@
     <ion-row>
       <ion-col>
         <div class="ion-text-center">
-        <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Insira seu e-mail para o login:</ion-label>
-        <ion-input type="text" required color="light" style=" border-bottom: 1px solid white;"></ion-input>
-      </div>
+          <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Insira seu e-mail para o
+            login:</ion-label>
+          <ion-input type="text" color="light" style=" border-bottom: 1px solid white;" [(ngModel)]="email"></ion-input>
+        </div>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
         <div class="ion-text-center">
-        <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Insira sua senha:</ion-label>
-        <ion-input type="text" required color="light" style=" border-bottom: 1px solid white;"></ion-input>
-      </div>
+          <ion-label position="floating" color="light" class="texto" style="font-size: 3vh;">Insira sua senha:
+          </ion-label>
+          <ion-input type="password" color="light" style=" border-bottom: 1px solid white;" [(ngModel)]="senha"></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-text-center">
+      <ion-col>
+        <ion-label color="light" class="texto" style="font-size:3vh">Cliente</ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-label color="light" class="texto" style="font-size:3vh">Funcionário</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-text-center">
+      <ion-col>
+        <ion-checkbox [(ngModel)]="cli" color="light" style="--background:#ffffff;" checked="false" (click)="validar(1)"></ion-checkbox>
+      </ion-col>
+      <ion-col>
+        <ion-checkbox [(ngModel)]="fun" color="light" style="--background:#ffffff;" checked="false" (click)="validar(2)"></ion-checkbox>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-button size="large" shape="round" color="light" fill="outline" mode="ios" class="tamanho" id="estilo">Login</ion-button>
-      </ion-col> 
+        <ion-button size="large" shape="round" color="light" fill="outline" mode="ios" class="tamanho" id="estilo"(click)="proximapag()">Login
+        </ion-button>
+      </ion-col>
     </ion-row>
   </ion-grid>
+
+
 
 </ion-content>
